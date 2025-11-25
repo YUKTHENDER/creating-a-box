@@ -1,0 +1,15 @@
+package nov21;
+
+import nov21.string;
+
+public class REDDY {
+	public static void main(string[] args) {
+		int inarray[] = {1,2,3,4,5,};
+		int inarray2[] = {6,7,8,9,10};
+		Object arrayutils;
+		int [] a = arrayutils.addall(inarray,inarray2);
+		string s = 
+		
+		
+	}
+	}

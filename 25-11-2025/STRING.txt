@@ -1,0 +1,17 @@
+package nov21;
+
+public class sri {
+	private static final String system = null;
+
+	public static void main(string[] args) {
+		String s = "nani";
+		s = s.concat(" reddy");
+		stringbuffer s1 = new stringbuffer("nani");
+		s1 = s1.append(" reddy");
+		stringbuilder s2 = new stringbuilder("nani");
+		s2 = s2.append(" reddy");
+		System.out.println("s");
+		System.out.println("s1");
+		System.out.println("s2");
+	}
+}
