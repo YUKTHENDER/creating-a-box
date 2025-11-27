@@ -1,0 +1,34 @@
+package removeArray;
+
+import java.util.*;
+
+public class removeArray {
+	public static void main(String[] args) 
+    {
+
+        LinkedList<Integer> list = new LinkedList<>();
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        list.add(20);
+        list.add(40);
+        list.add(20);
+
+        System.out.println("Original LinkedList: " + list);
+
+        list.removeFirstOccurrence(20);
+        System.out.println("After removeFirstOccurrence(20): " + list);
+
+        list.removeLastOccurrence(20);
+        System.out.println("After removeLastOccurrence(20): " + list);
+
+        list.removeAll(Arrays.asList(20));
+        System.out.println("After removeAll(20): " + list);
+
+        System.out.println("\nPrinting using Iterator:");
+        Iterator<Integer> it = list.iterator();
+        while (it.hasNext()) {
+            System.out.print(it.next() + " ");
+        }
+    }
+}

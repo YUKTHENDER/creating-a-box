@@ -1,0 +1,20 @@
+package java.util;
+
+public class linkedList {
+	private static long startTime;
+
+	public static void main(String[] args) {
+		List<String> list = (List<String>) new linkedList();
+
+		list.add("nani");
+		list.add("reddy");
+		list.add("malli");
+		list.add("rajesh");
+		list.add("mahesh");
+		list.add("kishor");
+		list.add("rahul");
+		list.remove(1);  
+		System.out.println("time taken by linkedlist:" + (System.currentTimeMillis() - startTime) + "ms");
+	}
+
+}
